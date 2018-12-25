@@ -73,7 +73,6 @@ disqus_username: lorem_ipsum
 아래 예시 참고
 
 ```ruby
----
 layout: post
 title: "How to use"
 date: 2015-08-03 03:32:44
@@ -85,7 +84,6 @@ tags:
 categories:
 - I love Jekyll
 twitter_text: 'How to install and use this template'
----
 ```
 
 
