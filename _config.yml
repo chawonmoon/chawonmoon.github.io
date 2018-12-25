@@ -1,0 +1,42 @@
+# Site settings
+title: ChaWonmoon Web Tech Blog
+description: ChaWonmoon Web Tech Blog
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" #"https://chawonmoon.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: ChaWonmoon
+user_description: Front-end Developer
+user_title: Web Tech Blog
+email: cchamang@gmail.com
+#twitter_username: chawonmoon
+github_username:  chawonmoon
+#gplus_username:  cchamang
+disqus_username: chawonmoon-github-io
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: About Me
+    url: /about
+  - title: Tags
+    url: /tags
+
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
