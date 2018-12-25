@@ -48,15 +48,15 @@ gulp.task('browser-sync', ['jekyll-build'], function() {
  * Stylus task
  */
 gulp.task('stylus', function(){
-		gulp.src('src/styl/main.styl')
+	gulp.src('src/styl/main.styl')
 		.pipe(plumber())
 		.pipe(stylus({
 			use:[koutoSwiss(), prefixer(), jeet(),rupture()],
 			compress: true
 		}))
-		.pipe(browserSync.reload({stream:true}))
 		.pipe(gulp.dest('_site/assets/css/'))
 		.pipe(gulp.dest('assets/css'))
+		.pipe(browserSync.reload({stream:true}))
 });
 
 /**
