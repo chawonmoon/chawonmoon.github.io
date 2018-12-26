@@ -1,26 +1,26 @@
 pre
     background #222
     width 100%
-    padding rem(20px) 0
+    padding 0
     color sec
     margin rem(30px) 0
     font-size rem(14px)
     +above(cut)
         font-size rem(16px)
-        padding rem(40px) 0
         margin rem(50px) 0
     code
         position relative
         center(rem(800))
-        padding 0 rem(20px)
+        padding rem(30px) rem(20px) rem(15px)
         +below(cut)
-            overflow-x: scroll;
+            padding rem(30px) rem(15px) rem(15px)
+            overflow-x: scroll
         a.vglnk
             color #66d9ef
         &[data-lang]:after
             content: attr(data-lang)
             position absolute
-            top rem(40px) * -1
+            top rem(20px) * -1
             right 0
             color #fff
             text-align right
@@ -32,6 +32,8 @@ pre
             line-height 1.5rem
             height 1.5rem
             border-radius 0 0 rem(5px) rem(5px)
+            +below(cut)
+                top 0
         &[data-lang=html]:after,
         &[data-lang=ejs]:after,
         &[data-lang=jade]:after,
@@ -60,6 +62,66 @@ pre
     span
         line-height 1.5rem
         font-family 'Monaco','Consolas','Menlo',monospace
+
+div.highlighter-rouge
+    position relative
+    margin-bottom rem(20px)
+    &:after
+        content 'Text'
+        position absolute
+        top 0
+        right 0
+        color #fff
+        text-align right
+        font-size rem(11px)
+        font-weight 700
+        letter-spacing rem(1px)
+        background #9b9b9b
+        padding rem(2px) rem(7px)
+        line-height 1.5rem
+        height 1.5rem
+        border-radius 0 0 rem(5px) rem(5px)
+div.language-
+    &html, &ejs, &jade, &pug
+       &:after
+            background #f2793d
+            content 'MarkUp'
+    &vue
+       &:after
+           background #47b784
+           content 'Vue'
+    &css
+       &:after
+           background #1790d2
+           content 'CSS'
+    &sass, &scss
+       &:after
+           background #cd669a
+           content 'SCSS'
+    &javascript
+       &:after
+           background #f6dd3b
+           color #34495e
+           content 'JavaScript'
+    &bash, &shell
+        &:after
+            background #282b2e
+            color #20cf24
+            content 'Bash'
+    &python
+        &:after
+            background #376d9b
+            color #fce16c
+            content 'Python'
+    &ruby
+        &:after
+            background #CC342D
+            color #fff
+            content 'Ruby'
+    &markdown
+        &:after
+            background #555
+            content 'MarkDown'
 
 .highlight
     margin 0
@@ -147,4 +209,4 @@ pre
     .ne,    // Name.Exception
     .nf,    // Name.Function
     .nx     // Name.Other
-        color #a6e22e
+        color #a

@@ -4,7 +4,7 @@
         max-width 100%
         margin rem(30px) auto
         display block
-    p, h1, h2, h3, h4,ul,ol, .tags, iframe
+    p, h1, h2, h3, h4, h5, h6, ul,ol, .tags, iframe
         center(rem(800px))
         padding 0 rem(20px)
         margin 0 auto rem(30px)
@@ -16,6 +16,8 @@
             font-size rem(20px)
     p,li
         color texts
+        margin rem(10px) auto
+        line-height 1.4
         code
             font-size rem(14px)
             font-weight bold
@@ -41,39 +43,58 @@
         +above(cut)
             font-size rem(45px)
     h2
+        margin rem(30px) auto rem(15px)
         font-size rem(22px)
         line-height 1.4
         +above(cut)
             font-size rem(35px)
     h3
-        font-size rem(18px)
+        font-size rem(21px)
         line-height 1.4
+        margin 0 auto rem(10px)
         +above(cut)
             font-size rem(25px)
+    h4, h5, h6
+        margin 0 auto
     ul,ol
+        margin 0 auto
         padding-left rem(40px)
     ul.post-list
         padding 0
         +below(cut)
             padding 0 rem(20px)
     blockquote
-        center(rem(730px))
+        width calc('100% - 40px')
+        max-width rem(760px)
+        position relative
         border-left rem(5px) solid main
-        padding 0 rem(30px)
-        margin rem(50px) auto
-        +below(cut)
-            width 70%
+        padding 0 rem(20px) 0 rem(30px)
+        margin rem(20px) auto
         p
             color rgba(0,0,0,0.6)
             margin 0
+            padding 0
             +below(cut)
                 font-size rem(18px)
                 line-height 1.5
                 padding 0
+        &:after
+            content '!'
+            font-size rem(18px)
+            font-weight bold
+            line-height 1
+            position absolute
+            background main
+            padding rem(3px) rem(10px) rem(7px) rem(6px)
+            color #fff
+            left 0
+            top 0
+        blockquote
+            margin-bottom 0
     hr
     	center(rem(760px))
     	border 1px solid lightGray
-    	margin 50px auto
+    	margin 20px auto
 
 .share
     center(800px)
@@ -88,11 +109,12 @@
         &:hover svg
             fill main
 
-
 table
-    margin rem(50px) auto
+    width calc('100% - 40px')
+    max-width rem(760px)
+    margin:0 auto
     +below(cut)
-        display none
+        width calc('100% - 40px')
     th, td
         border rem(2px) solid #ccc
         padding rem(5px)
