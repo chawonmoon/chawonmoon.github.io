@@ -5,7 +5,10 @@ date: 2018-12-26
 image: '/assets/img/'
 description: '마크다운(MarkDown) 문법(syntax) 정리'
 tags:
+- markdown
+- syntax
 categories:
+- Blog
 ---
 
 ## 제목(Header)
