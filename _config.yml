@@ -5,7 +5,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" #"https://chawonmoon.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: ChaWonmoon
+username: Cha Wonmoon
 user_description: Front-end Developer
 user_title: Web Tech Blog
 email: cchamang@gmail.com
@@ -18,7 +18,6 @@ disqus_username: chawonmoon-github-io
 markdown: kramdown
 highlighter: rouge
 permalink: /:title/
-
 
 # html minify
 compress_html:
