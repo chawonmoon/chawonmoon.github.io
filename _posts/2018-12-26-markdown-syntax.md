@@ -115,6 +115,8 @@ h2
 ```markdown
 [GOOGLE](https://google.com)
 
+[새창](https://google.com){: target="_blank" }
+
 [NAVER](https://naver.com "링크 설명(title)을 작성하세요.")
 
 [상대적 참조](../users/login)
@@ -132,9 +134,14 @@ h2
 [Dribbble link]: https://dribbble.com
 [1]: https://github.com
 [참조 링크]: https://naver.com "네이버로 이동합니다!"
+
+[새창](https://google.com){: .btn.btn-default target="_blank" }
+`{: 속성}` 를 뒤에 붙여 클래스나 id 원하는 테그에 원하는 속성이 추가 가능 
 ```
 #### 실제화면
 [GOOGLE](https://google.com)
+
+[새창](https://google.com){: target="_blank" }
 
 [NAVER](https://naver.com "링크 설명(title)을 작성하세요.")
 
@@ -152,6 +159,9 @@ h2
 [Dribbble link]: https://dribbble.com
 [1]: https://github.com
 [참조 링크]: https://naver.com "네이버로 이동합니다!"
+
+[새창/Class추가](https://google.com){: .btn.btn-default target="_blank" }  
+`{: attr}` 를 뒤에 붙여 Class나 Id등 원하는 태그에 원하는 속성을 추가 가능 
 
 ## 이미지+링크(Images+Links) 
 * 마크다운 이미지에 링크 걸기
@@ -385,6 +395,9 @@ ___
 하느님이 보우하사 우리나라 만세   <!--띄어쓰기 2번-->   
 무궁화 삼천리 화려 강산<br>
 대한 사람 대한으로 길이 보전하세
+
+## Repositories
+[https://github.com/chawonmoon/markdown-template.git](https://github.com/chawonmoon/markdown-template.git){: target="_blank" }
 
 ## I Think...
 문서화를 진행하거나 정리가 필요할때 개발자로서 확실히 이보다 좋은 문서 작성 포멧은 없을것같다  

@@ -27,6 +27,7 @@
             border-radius rem(3px)
     a
         mainFont(300)
+        word-break break-all
         color main
         text-decoration none
         border-bottom 2px solid main
@@ -64,12 +65,14 @@
         +below(cut)
             padding 0 rem(20px)
     blockquote
-        width calc('100% - 40px')
+        width calc('100% - 20px')
         max-width rem(760px)
         position relative
         border-left rem(5px) solid main
         padding 0 rem(20px) 0 rem(30px)
         margin rem(20px) auto
+        +below(cut)
+            padding 0 0 0 rem(30px)
         p
             color rgba(0,0,0,0.6)
             margin 0
