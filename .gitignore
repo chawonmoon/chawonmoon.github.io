@@ -173,3 +173,4 @@ dist
 _site
 .sass-cache
 _drafts
+package-lock.json
