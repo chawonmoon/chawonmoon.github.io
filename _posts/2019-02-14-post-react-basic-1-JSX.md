@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "React Basic #1"
+title: "React Basic #1 - JSX"
 date: 2019-02-14
 image: '/assets/img/'
 description: 'VELOPERT님의 React 동영상 강좌와 블로그로 스터디를 하며 개인적으로 정리한 포스트'
 tags:
 - react
+- JSX
 - VELOPERT
 categories:
 - Blog
@@ -13,7 +14,6 @@ categories:
 
 # React Basic #1  
 > 정리 내용들은 [VELOPERT.LOG](https://velopert.com/reactjs-tutorials) 님의 동영상 강좌와 블로그 강좌를 기반으로 스터디를 하며 정리한 내용 입니다.  
-> 강좌 중 [리액트는 무엇인가](https://velopert.com/3612) 는 건너뜀
 
 ## JSX
 
@@ -156,6 +156,9 @@ export default App;
 > [VELOPERT님의 "누구든지 하는 리액트 3편: JSX"](https://velopert.com/3626) 참조
 
 &nbsp;
+## I think...
+* 인라인 스타일을 넣는 방식은 그냥 지금도 쓰지 않는데, 앞으로 쓸일이 있을까 싶다
+* 이놈의 [ES6](https://jsdev.kr/t/es6/2944)...
 
 ## TODO
 * 컴포넌트에 전달해주는 값인 props 와, 컴포넌트 내부적으로 들고있는 값인 state 알아보기
