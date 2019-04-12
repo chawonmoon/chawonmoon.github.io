@@ -174,3 +174,4 @@ _site
 .sass-cache
 _drafts
 package-lock.json
+.history
