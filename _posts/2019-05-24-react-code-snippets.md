@@ -15,33 +15,43 @@ categories:
 
 ### rcc
 * class component skeleton
+&nbsp;
 
 ### rrc
 * class component skeleton with react-redux connect
+&nbsp;
 
 ### rccp
 * class component skeleton with prop types after the class
+&nbsp;
 
 ### rcjc
 * class component skeleton without import and default export lines
+&nbsp;
 
 ### rcfc
 * class component skeleton that contains all the lifecycle methods
+&nbsp;
 
 ### rwwd
 * class component without import statements
+&nbsp;
 
 ### rpc
 * class pure component skeleton with prop types after the class
+&nbsp;
 
 ### rsc
 * stateless component skeleton
+&nbsp;
 
 ### rscp
 * stateless component with prop types skeleton
+&nbsp;
 
 ### rsf
 * stateless named function skeleton
+&nbsp;
 
 ## WebStorm에서 사용법은 
 그냥 위의 약어를 에디터에 타이핑한 후에 `Ctrl+Tab`
