@@ -15,22 +15,31 @@ categories:
 
 ### rcc
 * class component skeleton
+
 ### rrc
 * class component skeleton with react-redux connect
+
 ### rccp
 * class component skeleton with prop types after the class
+
 ### rcjc
 * class component skeleton without import and default export lines
+
 ### rcfc
 * class component skeleton that contains all the lifecycle methods
+
 ### rwwd
 * class component without import statements
+
 ### rpc
 * class pure component skeleton with prop types after the class
+
 ### rsc
 * stateless component skeleton
+
 ### rscp
 * stateless component with prop types skeleton
+
 ### rsf
 * stateless named function skeleton
 
