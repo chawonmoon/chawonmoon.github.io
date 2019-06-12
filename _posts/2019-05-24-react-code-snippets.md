@@ -14,51 +14,51 @@ categories:
 ## React Code Snippets 정리
 
 ### rcc
-* class component skeleton
+* 기본 클래스형 template
 &nbsp;
 
 ### rrc
-* class component skeleton with react-redux connect
+* react-Redux 를 포함한 클래스형 template
 &nbsp;
 
 ### rccp
-* class component skeleton with prop types after the class
+* [prop-types](https://reactjs-kr.firebaseapp.com/docs/typechecking-with-proptypes.html)를 포함한 클래스형 template
 &nbsp;
 
 ### rcjc
-* class component skeleton without import and default export lines
+* import 및 default export가 없는 클래스형 template
 &nbsp;
 
 ### rcfc
-* class component skeleton that contains all the lifecycle methods
+* 모든 lifecycle 방법을 포함하는 클래스형 template
 &nbsp;
 
 ### rwwd
-* class component without import statements
+* 기본 import 구문이 없는 클래스형 template
 &nbsp;
 
 ### rpc
-* class pure component skeleton with prop types after the class
+* [prop-types](https://reactjs-kr.firebaseapp.com/docs/typechecking-with-proptypes.html)를 포함하고 PureComponent 상속한 클래스형 template
 &nbsp;
 
 ### rsc
-* stateless component skeleton
+* 기본 화살표 함수형 컴포넌트 template
 &nbsp;
 
 ### rscp
-* stateless component with prop types skeleton
+* [prop-types](https://reactjs-kr.firebaseapp.com/docs/typechecking-with-proptypes.html)를 포함한 화살표 함수형 컴포넌트 template
 &nbsp;
 
 ### rsf
-* stateless named function skeleton
+* 단순 함수형 컴포넌트
 &nbsp;
 
 ## WebStorm에서 사용법은 
-그냥 위의 약어를 에디터에 타이핑한 후에 `Ctrl+Tab`
+그냥 위의 약어를 에디터에 타이핑한 후에 제일 마지막단어 바로 뒤에서 `Tab`!!!
 
 &nbsp;
 ## I think...
 * 이런게 절대 필요했었다. 파일 생성할때 이것만큼 귀찮은 것도 없었기에~
 
 ## TODO
-* 대충은 내용을 알겠으나... 영어 번역해야겠다...
+* ~~대충은 내용을 알겠으나... 영어 번역해야겠다...~~
