@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "React에서 MobX 사용하기"
+title: "React에 MobX 설치&셋팅"
 date: 2019-06-21
 image: '/assets/img/'
-description: 'React에서 MobX 사용방법 정리'
+description: 'React에 MobX 설치와 셋팅하기'
 tags:
 - React
 - Code
@@ -12,7 +12,7 @@ tags:
 categories:
 - Code
 ---
-## React에서 MobX 사용하기
+## React에서 MobX 설치 & 셋팅
 
 ### MobX 모듈과 Decorator 설치 및 셋팅
 * mobX / mobx-react 모듈 설치  
