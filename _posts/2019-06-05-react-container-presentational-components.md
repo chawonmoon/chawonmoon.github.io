@@ -120,7 +120,7 @@ const Presentational = props =>
 
 &nbsp;
 ### Point
-Presentational Component 와 Container Component 간의 차이점이 기술적인 부분에서 오는 것이 아니라 어떤 목적을 가지는지에 분류 해야 한다는 것을 충분히 이해하는 것이 중요하다.
+Presentational Component 와 Container Component 간의 차이점이 기술적인 부분에서 오는 것이 아니라 어떤 목적을 가지는지에 따라 분류 해야 한다는 것을 충분히 이해하는 것이 중요하다.
 
 &nbsp;
 >### 참고자료 
