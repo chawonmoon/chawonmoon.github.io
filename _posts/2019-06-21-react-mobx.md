@@ -23,6 +23,8 @@ $ yarn add mobx mobx-react
 
 * Decorator를 Babel에 설정하기위해 `yarn eject` 
     - eject 하기전에 git에 push 되어야한다. 안되있으면 애러!!!
+    - eject 후에는 꼭 `yarn` 또는 `yarn install` 실행
+    - 또한 `yarn start` 하면 애러가 날것이다. `@babel/plugin-transform-react-jsx-source` 와 `@babel/plugin-transform-react-jsx-self` 모듈 추가 설치
     
 * Babel 플러그인 설치
 
