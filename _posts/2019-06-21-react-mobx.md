@@ -1,18 +1,19 @@
 ---
 layout: post
-title: "React에 MobX 설치&셋팅"
+title: "CRA에 MobX 설치&셋팅"
 date: 2019-06-21
 image: '/assets/img/'
-description: 'React에 MobX 설치와 셋팅하기'
+description: 'CRA에 MobX 설치와 셋팅하기'
 tags:
 - React
+- CRA
 - Code
 - MobX
 - 상태관리
 categories:
 - Code
 ---
-## React에서 MobX 설치 & 셋팅
+## CRA에서 MobX 설치 & 셋팅
 
 ### MobX 모듈과 Decorator 설치 및 셋팅
 * mobX / mobx-react 모듈 설치  
